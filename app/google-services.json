@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "289217676398",
+    "project_id": "fir-ecommers-1d078",
+    "storage_bucket": "fir-ecommers-1d078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289217676398:android:4fb6e1e69a6971b36a127f",
+        "android_client_info": {
+          "package_name": "com.example.firebase_ecommers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289217676398-02m432up1061ep1udfb9161sdk6sekco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_ecommers",
+            "certificate_hash": "26da9a2591a231eb52c6872c55c3507bddeae2fc"
+          }
+        },
+        {
+          "client_id": "289217676398-lfsal73d18gj6dh9j30fjanlhinvimv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFxWnlBAHWZCS4t2Tonz_XR2W4Yb6DGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289217676398-lfsal73d18gj6dh9j30fjanlhinvimv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

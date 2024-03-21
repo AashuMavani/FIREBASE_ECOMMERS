@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FIREBASE_ECOMMERS</string>
+    <string name="Open_Drawer">Open_drawer</string>
+    <string name="Close_Drawer">Close_drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

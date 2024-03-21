@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Add_Product_Fragment"
+    android:background="@drawable/img_4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ADD PRODUCT"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="10dp"
+            android:hint="PRODUCT NAME"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            android:padding="10dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/pprice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="10dp"
+            android:hint="PRODUCT PRICE"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            android:padding="10dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/pdes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="10dp"
+            android:hint="PRODUCT DES"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            android:padding="10dp"/>
+        <ImageView
+            android:id="@+id/pimg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"/>
+        <Button
+            android:id="@+id/Addbutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:backgroundTint="#7F5353"
+            android:layout_marginHorizontal="20dp"
+            android:text="ADD PRODUCT"
+            android:layout_marginVertical="30dp"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+        <Button
+            android:id="@+id/Updatebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#7F5353"
+            android:text="Update Product" />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
